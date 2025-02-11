@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="1.737" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\mishe\Projects\MIHAELA_YORDANOVA_MG\target\test-classes;C:\Users\mishe\Projects\MIHAELA_YORDANOVA_MG\target\classes;C:\Users\mishe\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\mishe\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mishe\.m2\repository\io\cucumber\cucumber-testng\7.13.0\cucumber-testng-7.13.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\mishe\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\mishe\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\mishe\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\mishe\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\mishe\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\mishe\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\mishe\AppData\Local\Temp\surefire1361368429273574251\surefirebooter-20250211134151937_3.jar C:\Users\mishe\AppData\Local\Temp\surefire1361368429273574251 2025-02-11T13-41-50_390-jvmRun1 surefire-20250211134151937_1tmp surefire_0-20250211134151937_2tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\mishe\Projects\MIHAELA_YORDANOVA_MG\target\test-classes;C:\Users\mishe\Projects\MIHAELA_YORDANOVA_MG\target\classes;C:\Users\mishe\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\mishe\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mishe\.m2\repository\io\cucumber\cucumber-testng\7.13.0\cucumber-testng-7.13.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\mishe\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\mishe\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\mishe\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\mishe\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\mishe\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\mishe\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\mishe\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\mishe"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/>
+    <property name="basedir" value="C:\Users\mishe\Projects\MIHAELA_YORDANOVA_MG"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\mishe\AppData\Local\Temp\surefire1361368429273574251\surefirebooter-20250211134151937_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="user.name" value="mishe"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\mishe\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\mishe\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="user.dir" value="C:\Users\mishe\Projects\MIHAELA_YORDANOVA_MG"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\Maven\apache-maven-3.8.3\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\mishe\.AndroidStudio3.5\platform-tools;C:\Users\mishe\AppData\Local\Microsoft\WindowsApps;C:\Users\mishe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mishe\AppData\Roaming\npm;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Successful registration with a valid password&quot;, &quot;MoneyGaming Registration&quot;](1)" classname="runner.TestRunner" time="0.127">
+    <system-out><![CDATA[
+Scenario: Successful registration with a valid password # src/test/resources/features/MIHAELA_YORDANOVA_MG.feature:7
+Navigating to the registration page...
+  Given I am on the registration page                   # stepdefinitions.RegistrationSteps.i_am_on_the_registration_page()
+Entering password: Secure@123
+  When I enter a valid password "Secure@123"            # stepdefinitions.RegistrationSteps.i_enter_a_valid_password(java.lang.String)
+Submitting registration form...
+  And I submit the registration form                    # stepdefinitions.RegistrationSteps.i_submit_the_registration_form()
+Verifying confirmation message...
+  Then I should see a confirmation message              # stepdefinitions.RegistrationSteps.i_should_see_a_confirmation_message()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Password too short&quot;, &quot;MoneyGaming Registration&quot;](2)" classname="runner.TestRunner" time="0.068">
+    <system-out><![CDATA[
+Scenario: Password too short                                                       # src/test/resources/features/MIHAELA_YORDANOVA_MG.feature:13
+Navigating to the registration page...
+  Given I am on the registration page                                              # stepdefinitions.RegistrationSteps.i_am_on_the_registration_page()
+Entering short password: A@1
+  When I enter a password "A@1" that is less than 6 characters                     # stepdefinitions.RegistrationSteps.i_enter_a_password_that_is_less_than_characters(java.lang.String,java.lang.Integer)
+Submitting registration form...
+  And I submit the registration form                                               # stepdefinitions.RegistrationSteps.i_submit_the_registration_form()
+Checking for error message: Password must be at least 6 characters long
+  Then I should see an error message "Password must be at least 6 characters long" # stepdefinitions.RegistrationSteps.i_should_see_an_error_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Password missing a number&quot;, &quot;MoneyGaming Registration&quot;](3)" classname="runner.TestRunner" time="0.118">
+    <system-out><![CDATA[
+Scenario: Password missing a number                                              # src/test/resources/features/MIHAELA_YORDANOVA_MG.feature:19
+Navigating to the registration page...
+  Given I am on the registration page                                            # stepdefinitions.RegistrationSteps.i_am_on_the_registration_page()
+Entering password without a number: Secure@!
+  When I enter a password "Secure@!" without a number                            # stepdefinitions.RegistrationSteps.i_enter_a_password_without_a_number(java.lang.String)
+Submitting registration form...
+  And I submit the registration form                                             # stepdefinitions.RegistrationSteps.i_submit_the_registration_form()
+Checking for error message: Password must contain at least one number
+  Then I should see an error message "Password must contain at least one number" # stepdefinitions.RegistrationSteps.i_should_see_an_error_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Password missing a special character&quot;, &quot;MoneyGaming Registration&quot;](4)" classname="runner.TestRunner" time="0.054">
+    <system-out><![CDATA[
+Scenario: Password missing a special character                                              # src/test/resources/features/MIHAELA_YORDANOVA_MG.feature:25
+Navigating to the registration page...
+  Given I am on the registration page                                                       # stepdefinitions.RegistrationSteps.i_am_on_the_registration_page()
+Entering password without a special character: Secure123
+  When I enter a password "Secure123" without a special character                           # stepdefinitions.RegistrationSteps.i_enter_a_password_without_a_special_character(java.lang.String)
+Submitting registration form...
+  And I submit the registration form                                                        # stepdefinitions.RegistrationSteps.i_submit_the_registration_form()
+Checking for error message: Password must contain at least one special character
+  Then I should see an error message "Password must contain at least one special character" # stepdefinitions.RegistrationSteps.i_should_see_an_error_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Password missing both a number and a special character&quot;, &quot;MoneyGaming Registration&quot;](5)" classname="runner.TestRunner" time="0.003">
+    <system-out><![CDATA[
+Scenario: Password missing both a number and a special character                                           # src/test/resources/features/MIHAELA_YORDANOVA_MG.feature:31
+Navigating to the registration page...
+  Given I am on the registration page                                                                      # stepdefinitions.RegistrationSteps.i_am_on_the_registration_page()
+Entering password without number and special character: SecurePass
+  When I enter a password "SecurePass" without a number and special character                              # stepdefinitions.RegistrationSteps.i_enter_a_password_without_a_number_and_special_character(java.lang.String)
+Submitting registration form...
+  And I submit the registration form                                                                       # stepdefinitions.RegistrationSteps.i_submit_the_registration_form()
+Checking for error message: Password must contain at least one number and one special character
+  Then I should see an error message "Password must contain at least one number and one special character" # stepdefinitions.RegistrationSteps.i_should_see_an_error_message(java.lang.String)
+]]></system-out>
+  </testcase>
+</testsuite>
